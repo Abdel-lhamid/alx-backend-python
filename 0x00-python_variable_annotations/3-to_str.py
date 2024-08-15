@@ -2,6 +2,6 @@
 """ to_str Module"""
 
 
-def to_str(n: float) -> float:
+def to_str(n: float) -> str:
     """return string of a float"""
     return str(n)
