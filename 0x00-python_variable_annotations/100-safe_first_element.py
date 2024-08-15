@@ -3,7 +3,7 @@
 from typing import Any, Sequence, Union
 
 
-def def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """safely returns the first elem of aq squence if exists"""
     if lst:
         return lst[0]
